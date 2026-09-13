@@ -37,9 +37,9 @@
             label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.Location = new Point(39, 180);
             label1.Name = "label1";
-            label1.Size = new Size(726, 47);
+            label1.Size = new Size(667, 47);
             label1.TabIndex = 0;
-            label1.Text = "Student Profile - Rhyen Miguel Penamayor";
+            label1.Text = "Student Profile -  GitHub Beginner Lab.";
             // 
             // Form1
             // 
