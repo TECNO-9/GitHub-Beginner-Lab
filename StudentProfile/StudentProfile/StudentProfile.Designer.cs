@@ -1,6 +1,6 @@
 ﻿namespace StudentProfile
 {
-    partial class Form1
+    partial class StudentProfile
     {
         /// <summary>
         ///  Required designer variable.
@@ -29,26 +29,38 @@
         private void InitializeComponent()
         {
             label1 = new Label();
+            label2 = new Label();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.Location = new Point(39, 180);
+            label1.Location = new Point(68, 158);
             label1.Name = "label1";
-            label1.Size = new Size(667, 47);
+            label1.Size = new Size(648, 47);
             label1.TabIndex = 0;
-            label1.Text = "Student Profile -  GitHub Beginner Lab.";
+            label1.Text = "Student Profile - GitHub Beginner Lab";
             // 
-            // Form1
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Segoe UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label2.Location = new Point(68, 220);
+            label2.Name = "label2";
+            label2.Size = new Size(534, 47);
+            label2.TabIndex = 1;
+            label2.Text = "Contact Number: 09158562724";
+            // 
+            // StudentProfile
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label2);
             Controls.Add(label1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "StudentProfile";
+            Text = "StudentProfile";
             Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
@@ -57,5 +69,6 @@
         #endregion
 
         private Label label1;
+        private Label label2;
     }
 }
