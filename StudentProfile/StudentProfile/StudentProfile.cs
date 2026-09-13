@@ -1,8 +1,8 @@
 namespace StudentProfile
 {
-    public partial class Form1 : Form
+    public partial class StudentProfile : Form
     {
-        public Form1()
+        public StudentProfile()
         {
             InitializeComponent();
         }
